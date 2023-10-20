@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, orange, cyan);
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.4);
+    padding: 1em;
+    border-radius: 10px;
+    border:1px solid white;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+.input-group{
+    /* border: 2px solid white; */
+    padding: 5px 0;
+}
+
+label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;font-variant: small-caps;
+    letter-spacing: 2px;
+    
+}
+input{
+    width: 100%;
+    /* background: transparent; */
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-size: 16px;
+    /* height: 25px; */
+    padding: 3px;
+}
+input[type="text"]{
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+input:hover{
+    background: rgba(255,255,255,0.3);
+    border-color: black;
+}
+input:focus{
+    outline: 0;
+    border-color: blue;
+}
+.input-group .error{
+    color: red;
+    font-size: 16px;
+    font-family: monospace;
+    margin-top: 5px;
+    /* visibility: hidden; */
+}
+.input-group .success input{
+    border-color: green;
+}
+.input-group .error input{
+    border-color: red;
+}
+
+
+/* Button - group */
+.btn{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px solid white;
+    background-color: blue;
+    color: wheat;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="./To-Do/todo.html"  id="form" >
+            <h1>Login</h1>
+
+            <!-- Username -->
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <div class="error"></div>
+            </div>
+            <!-- Email -->
+            <div class="input-group">
+                <label for="mailid">Email ID</label>
+                <input type="email" name="mailid" id="mailid">
+                <div class="error"></div>
+            </div>
+            <!-- Password -->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <div class="error"></div>
+            </div>
+            <!-- Confirm Password -->
+            <div class="input-group">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" name="cpassword" id="cpassword">
+                <div class="error"></div>
+            </div>
+            <!-- Submit -->
+            <button value="submit" type="submit" class="btn" >Login</button>
+            <!-- <input type="submit" name="submit" id="submit" onclick="" value="Login"> -->
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+<!-- 
+    window.location.href="/To-Do/todo.html";
+    onsubmit="return validateInputs()"
+ -->

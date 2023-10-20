@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#153677, #4e085f);
+    background-attachment: fixed;
+    margin-top: 3em;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.4);
+    padding: 1em;
+    border-radius: 10px;
+    border:1px solid white;
+    width: 400px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav a{
+    padding-right: 30px;
+    text-transform: capitalize;
+    /* font-style: italic; */
+    font-family: monospace;
+    font-size: 20px;
+    color: orange;
+}
+h1{
+    text-align: justify;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: red;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 14px;
+    border-radius: 30px;
+} 
+button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: blue;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:40px ;
+} 
+
+ul{
+    padding: 10px;
+    padding-left: 35px;
+}
+li{
+    font-family: monospace;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+    list-style-type: circle;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+@media(width<350px){
+    .container{
+        min-height: 300px;
+    }
+}
