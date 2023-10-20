@@ -15,6 +15,7 @@ function validateInputs(){
     let emailVal = mailid.value.trim();
     let passVal = password.value.trim();
     let cpassVal = cpassword.value.trim();
+    let success = true;
 
     // username
     if(nameVal===""){
